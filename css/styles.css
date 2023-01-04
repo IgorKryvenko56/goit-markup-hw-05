@@ -897,7 +897,8 @@ background-color: #31D0AA;
   top: 24px;
   width: 24px;
   height: 24px;
-  transition-property: background-color, border, border-radius;
+  border-radius: 50%;
+  transition-property: background-color, border;
   transition-duration: 250ms;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -906,5 +907,4 @@ background-color: #31D0AA;
 .close-button:focus  {
  background-color:#E7E9FC ;
  border: 1px solid #0000001A;
- border-radius: 50%;
 }
